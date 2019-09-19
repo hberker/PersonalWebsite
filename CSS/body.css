@@ -1,0 +1,45 @@
+body{
+    background-image:linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.5)),  url("../IMG/treebkground.jpg");
+    background-attachment: fixed;
+   
+}
+li{
+    display: block;
+
+}
+.introCont{
+    margin-left: 15%;
+    margin-right: 15%;
+    overflow: auto
+}
+.postContent{
+    color: white;
+    font-size: 3.5em;
+    font-family: monospace;
+}
+.imgOfMe{
+    margin-top: 60px;
+    margin-left: 80px;
+    float: right;
+    display: block;
+}
+.loc-caption:before {
+    content: attr(title);
+    display: block;
+}
+  
+  ul {
+    text-align: center;
+    padding: 0;
+  }
+  
+  li {
+    width: 15%;
+    display: inline-block;
+    vertical-align: top;
+  }
+  
+  li img {
+    max-width: 100%;
+    height: auto;
+  }
