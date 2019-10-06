@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" type="text/css" href="../CSS/DropDownMenu.css">
+        <link rel="stylesheet" type="text/css" href="../CSS/MenuName.css">
+        <link rel="stylesheet" type="text/css" href="../CSS/projects.css">
+        
+        <link rel="stylesheet" type="text/css" href="../CSS/collapsible.css">
+        <script src="../CODE/popup.js"></script>
+      
+    </head>
+    <body>
+        
+        <!-- The overlay -->
+        <div id="myNav" class="overlay">
+            <!-- Button to close the overlay navigation -->
+            <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+            <!-- Overlay content -->
+            <div class="overlay-content">
+                <a href="main.html">Home</a>
+                <a href="projects.html">Projects</a>
+                <a href="about.html">About</a>
+                <a href="#">Contact</a>
+            </div>
+        </div>
+        <!-- The Name/menu-->
+        <div class="headerTop">
+            <span class="MenuName" style="font-size:30px;cursor:pointer" onclick="openNav()"><img class="MenuName" src="../IMG/SigNormal.png"></span>
+        </div>
+        <div class="introCont">
+            <div class = "postContent">
+                <h1>Projects</h1>
+                <p>
+                    Here is a list of recent projects I have worked on.
+                    to check them out on GitHub just click on the logo.
+                </p>
+            </div>
+            <!--Start of Projects-->
+            <h2>Python</h2>
+            <button class="collapsible"><b>Terminal Coding Challenge</b></button>
+            <div class="content">
+                <p>
+                    This challenge consited of writing a bot in python to compete against other bots.
+                    The goal of which is to win by placing pieces and defeneding against enemy attacks.
+                    My algorithm for this challenge went through many frastic changes as my strategy
+                    changed. 
+                </p>
+                <p>
+                    The highest rank I have achieved so far through my bots is #42 globablly.
+                </p>
+                <a href ="https://github.com/hberker/TerminalAIBot"><img style="width: 10%" src="../IMG/GitHub_Logo_White.png"></a>
+
+            </div>
+
+            <div style="height: 1px"></div>
+
+            <button class="collapsible"><b>Halite Coding Challenge</b></button>
+            <div class="content">
+                <p>
+                    This challenge consited of writing a bot in python to compete against other bots.
+                    The goal of which is to win by coding logic for ships to collect a resource called Halite,
+                    return it back to base, and avoid enemy ships.
+                </p>
+                <a href ="https://github.com/hberker/Halite-3-Bot"><img style="width: 10%" src="../IMG/GitHub_Logo_White.png"></a>
+
+            </div>
+
+            <div style="height: 1px"></div>
+
+            <button class="collapsible"><b>WebScraper</b></button>
+                <div class="content">
+                        <p>
+                                This webscraper was built in python and, you guessed it,
+                                scraped the web. It worked by being given a link, then reading
+                                all the text on the site and compiling a list of string. It
+                                would then sepreate this into new links and text. then it would 
+                                read the text to see if any preassigned keywords popped up, record
+                                its findings on an excel sheet, and move on to the next site in 
+                                it's list. 
+                            </p>
+                            <p>
+                                This bot was a lot of fun and was even able to read through twitter
+                            </p>
+                    <a href ="https://github.com/hberker/Python-Web-Scrapper"><img style="width: 10%" src="../IMG/GitHub_Logo_White.png"></a>
+
+                </div>
+
+
+            <div style="height: 1px"></div>
+            <h2><b>Java</b></h2>
+
+            <button class="collapsible"><b>Top Down Arcade Game</b></button>
+                <div class="content">
+                    <p>
+                        This game was one of the first I coded in python.
+                        It was done for a class and required me to learn 
+                        the pygame library.
+                    </p>
+                    <a href ="https://github.com/hberker/Topdown-Shooter"><img style="width: 10%" src="../IMG/GitHub_Logo_White.png"></a>
+                    <img src="../IMG/gamePic.png">
+                </div>
+                
+            <div style="height: 1px"></div>
+
+            <button class="collapsible"><b>Instagram Follow Bot</b></button>
+            <div class="content">
+                <p>
+                    This is the very first coding project I have ever completed. It wanted to
+                    write a program that would go through a list of usernames and follow each 
+                    of them. THe script could then be run again to unfollow them. The idea for
+                    this bot was a application for small companys to use in order to reach a larger
+                    following and base on social media. 
+                </p>
+                <a href ="https://github.com/hberker/Instagram-Follow-Bot"><img style="width: 10%" src="../IMG/GitHub_Logo_White.png"></a>
+
+            </div>
+
+        
+    </div>
+        <script  align="middle" src="../CODE/Collapsible.js"></script>
+    </body>
+</html>

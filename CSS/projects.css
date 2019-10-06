@@ -1,0 +1,33 @@
+body{
+    background-image:linear-gradient(rgba(0, 0, 0, 0.9), rgba(0, 0, 0, 0.2)),  url("../IMG/CloudIMG.JPG");
+    background-attachment: fixed;   
+    color: white;
+    font-family: monospace;
+}
+
+.introCont{
+    margin-left: 15%;
+    margin-right: 15%;
+    overflow: auto
+}
+.projectList{
+    color: white;
+    font-size: 1.0em;
+    
+    margin: 5%;
+
+}
+a{
+    color: #387D7A
+}
+img {
+    display: block;
+    margin: 0 auto;
+    width: 40%;
+    padding-bottom: 20px;
+}
+.postContent{
+    color: white;
+    font-size: 2.0em;
+}
+

@@ -1,0 +1,46 @@
+body{
+    background-image:linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.5)),  url("../IMG/CloudIMG.JPG");
+    background-attachment: fixed;   
+}
+li{
+    display: block;
+
+}
+.introCont{
+    margin-left: 10%;
+    margin-right: 10%;
+    overflow: auto
+}
+.postContent{
+    color: white;
+    font-size: 2.0em;
+    font-family: monospace;
+}
+.imgOfMe{
+    margin-top: 50px;
+    margin-left: 30px;
+    float: right;
+    display: block;
+    width: 25em;
+    height: auto;
+}
+.loc-caption:before {
+    content: attr(title);
+    display: block;
+}
+  
+  ul {
+    text-align: center;
+    padding: 0;
+  }
+  
+  li {
+    width: 15%;
+    display: inline-block;
+    vertical-align: top;
+  }
+  
+  li img {
+    max-width: 100%;
+    height: auto;
+  }
