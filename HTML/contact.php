@@ -60,8 +60,8 @@ if(isset($_POST["submit"]))
 
  if($error == '')
  {
-  $file_open = fopen("contact_data.csv", "a");
-  $no_rows = count(file("contact_data.csv"));
+  $file_open = fopen("../CSV/contact_data.csv", "a");
+  $no_rows = count(file("../CSV/contact_data.csv"));
   if($no_rows > 1)
   {
    $no_rows = ($no_rows - 1) + 1;
@@ -81,7 +81,6 @@ if(isset($_POST["submit"]))
   $message = '';
  }
 }
-
 ?>
 <!DOCTYPE html>
 <html>
@@ -91,8 +90,6 @@ if(isset($_POST["submit"]))
         <link rel="stylesheet" type="text/css" href="../CSS/DropDownMenu.css">
         <link rel="stylesheet" type="text/css" href="../CSS/MenuName.css">
         <link rel="stylesheet" type="text/css" href="../CSS/contact.css">
-        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
-        <script src="../CODE/contactForm.php"></script>
     </head>
     <body>
         <!-- The overlay -->
@@ -104,7 +101,7 @@ if(isset($_POST["submit"]))
                 <a href="main.html">Home</a>
                 <a href="projects.html">Projects</a>
                 <a href="about.html">About</a>
-                <a href="contact.html">Contact</a>
+                <a href="contact.php">Contact</a>
             </div>
         </div>
         <!-- The Name/menu-->
@@ -121,9 +118,9 @@ if(isset($_POST["submit"]))
                 <div class="container">
                 <br />
   <div class="container">
-   <h2 align="center">How to Store Form data in CSV File using PHP</h2>
-   <br />
-   <div class="col-md-6" style="margin:0 auto; float:none;">
+   <!--<h2 align="center">Contact Me</h2>
+   <br />-->
+   <div class="col-md-6" style="margin:0 auto; float:none; color:black;">
     <form method="post">
      <h3 align="center">Contact Form</h3>
      <br />
