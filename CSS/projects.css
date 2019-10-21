@@ -1,5 +1,5 @@
 body{
-    background-image:linear-gradient(rgba(0, 0, 0, 0.9), rgba(0, 0, 0, 0.2)),  url("../IMG/CloudIMG.JPG");
+    background-image:linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.2)),  url("../IMG/CloudIMG.JPG");
     background-attachment: fixed;   
     color: white;
     font-family: monospace;
@@ -17,8 +17,10 @@ body{
     margin: 5%;
 
 }
+
 a{
-    color: #387D7A
+    color: #387D7A;
+
 }
 img {
     display: block;
