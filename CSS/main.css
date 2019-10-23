@@ -6,23 +6,26 @@ li{
     display: block;
 
 }
+
 .introCont{
     margin-left: 15%;
     margin-right: 15%;
     overflow: auto
 }
 .postContent{
+
     color: white;
-    font-size: 2.0em;
+    font-size: 1.0em;
     font-family: monospace;
 }
 .imgOfMe{
-    margin-top: 60px;
+    margin-top: 10px;
     margin-left: 50px;
     float: right;
     display: block;
-    width: 40%;
-    height: 40;
+    align-content: center;
+    width: 50%;
+    /*height: 40;*/
 }
 .loc-caption:before {
     content: attr(title);
