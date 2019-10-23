@@ -110,11 +110,10 @@ if(isset($_POST["submit"]))
         </div>
         <div class="introCont">
             <div class = "postContent">
-                <h1>Contact</h1>
+                <h2>Contact</h2>
                 <p>
                    Feel free to reach out with any questions.
                 </p>
-                <h3>Contact Form</h3>
                 <div class="container">
                 <br />
   <div class="container">
@@ -122,9 +121,9 @@ if(isset($_POST["submit"]))
    <br />-->
    <div class="col-md-6" style="margin:0 auto; float:none; color:black;">
     <form method="post">
-     <h3 align="center">Contact Form</h3>
+     <h3>Contact Form</h3>
      <br />
-     <?php echo $error; ?>
+     <h3 class="error"><?php echo $error; ?></h2>
      <div class="form-group">
       <label>Enter Name</label>
       <input type="text" name="name" placeholder="Enter Name" class="form-control" value="<?php echo $name; ?>" />
