@@ -23,8 +23,14 @@ li{
     display: block;
     align-content: center;
     /*height: 40;*/
+  }
+  .introCont{
+    margin-left: 15%;
+    margin-right: 15%;
+    overflow: auto
+  }
 }
-}
+
 @media screen and (max-width: 800px) {
   img, .imgOfMe {
        width: 80%;
@@ -42,18 +48,17 @@ li{
     color: white;
     font-size: 1.0em;
     font-family: monospace;
-    margin-left: 10%;
-    margin-right: 10%;
     text-align: center;
   }
+  .introCont{
+    margin-left: 5%;
+    margin-right: 5%;
+    overflow: auto
+}
   
 }
 
-.introCont{
-    margin-left: 15%;
-    margin-right: 15%;
-    overflow: auto
-}
+
 
 
 .loc-caption:before {

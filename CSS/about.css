@@ -6,11 +6,6 @@ li{
     display: block;
 
 }
-.introCont{
-    margin-left: 10%;
-    margin-right: 10%;
-    overflow: auto
-}
 .postContent{
     color: white;
     font-size: 2.0em;
@@ -53,7 +48,12 @@ li{
       color: white;
       font-size: 1.0em;
       font-family: monospace;
-  }
+   }
+    .introCont{
+      margin-left: 10%;
+      margin-right: 10%;
+      overflow: auto
+    }
     .imgOfMe{
       margin-top: 10px;
       margin-left: 50px;
@@ -69,19 +69,22 @@ li{
          margin-right: 0px;
          margin-left: 0px;
          align-self: center;
-  
     }
     .imgOfMe{
       margin-right: 10%;
       align-content: center;
       /*height: 40;*/
     }
+    .introCont{
+      margin-left: 5%;
+      margin-right: 5%;
+      overflow: auto
+  }
     .postContent{
       color: white;
       font-size: 1.0em;
       font-family: monospace;
-      margin-left: 10%;
-      margin-right: 10%;
+
       text-align: center;
     }
     

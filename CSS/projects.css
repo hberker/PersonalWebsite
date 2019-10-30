@@ -35,4 +35,10 @@ img {
     p{
         font-size: 0.5em;
     }
+    .introCont{
+        margin-left: 5%;
+        margin-right: 5%;
+        overflow: auto
+    }
+    
 }
