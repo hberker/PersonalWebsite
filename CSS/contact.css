@@ -72,12 +72,3 @@ input[type=submit]:hover {
   color: red;
   font-size: 0.5em;
 }
-@media screen and (max-width: 800px) {
-
-  .introCont{
-      margin-left: 5%;
-      margin-right: 5%;
-      overflow: auto
-  }
-  
-}

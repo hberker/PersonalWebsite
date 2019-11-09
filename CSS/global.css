@@ -4,3 +4,48 @@ body{
     color: white;
     font-family: monospace;
 }
+@media screen and (max-width: 2000px) {
+    img, .imgOfMe {
+        width: 40%;
+        margin-top: 10px;
+        margin-left: 50px;
+        float: right;
+        display: block;
+        align-content: center;
+      /*height: 40;*/
+    }
+    .postContent{
+  
+      color: white;
+      font-size: 1.0em;
+      font-family: monospace;
+  
+    }
+    .introCont{
+      margin-left: 15%;
+      margin-right: 15%;
+      overflow: auto
+    }
+}
+  
+
+@media screen and (max-width: 700px) {
+img, .imgOfMe {
+    width: 80%;
+    margin-right: 10%;
+    align-self: center;
+
+}
+.postContent{
+    color: white;
+    font-size: 1.0em;
+    font-family: monospace;
+    text-align: center;
+}
+.introCont{
+    margin-left: 5%;
+    margin-right: 5%;
+    text-overflow: inherit;
+}
+
+}

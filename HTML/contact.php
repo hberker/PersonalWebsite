@@ -88,7 +88,6 @@ if(isset($_POST["submit"]))
         <script src="../CODE/popup.js"></script>
         <meta name="viewport" content="width=device-width, initial-scale=1">
         <link rel="stylesheet" type="text/css" href="../CSS/DropDownMenu.css">
-        <link rel="stylesheet" type="text/css" href="../CSS/MenuName.css">
         <link rel="stylesheet" type="text/css" href="../CSS/contact.css">
         <link rel="stylesheet" type="text/css" href="../CSS/global.css">
 
