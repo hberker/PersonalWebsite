@@ -1,11 +1,4 @@
-body{
-    background-image:linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.5)),  url("../IMG/CloudIMG.JPG");
-    background-attachment: fixed;   
-}
-li{
-    display: block;
 
-}
 .postContent{
     color: white;
     font-size: 2.0em;

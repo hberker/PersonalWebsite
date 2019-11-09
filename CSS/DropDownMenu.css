@@ -1,8 +1,4 @@
-body {
-    font-family: 'Lato', sans-serif;
-  }
-  
-  .overlay {
+.overlay {
     height: 0%;
     width: 100%;
     position: fixed;
