@@ -4,6 +4,9 @@ body{
     color: white;
     font-family: monospace;
 }
+a{
+    color: #387D7A;
+}
 @media screen and (max-width: 2000px) {
     img, .imgOfMe {
         width: 40%;
@@ -13,6 +16,12 @@ body{
         display: block;
         align-content: center;
       /*height: 40;*/
+    }
+    img{
+        margin: 0 auto;
+        align-content: center;
+        width: 40%;
+        padding-bottom: 20px;
     }
     .postContent{
   
@@ -30,22 +39,35 @@ body{
   
 
 @media screen and (max-width: 700px) {
-img, .imgOfMe {
-    width: 80%;
-    margin-right: 10%;
-    align-self: center;
+    img, .imgOfMe {
+        width: 80%;
+        margin-right: 10%;
 
-}
-.postContent{
-    color: white;
-    font-size: 1.0em;
-    font-family: monospace;
-    text-align: center;
-}
-.introCont{
-    margin-left: 5%;
-    margin-right: 5%;
-    text-overflow: inherit;
+    }
+    img {
+        margin: 0 auto;
+        align-content: center;
+        width: 50%;
+        padding-bottom: 20px;
+        padding-left: 25%;
+        padding-right: 25%;
+    }
+    .postContent{
+        color: white;
+        font-size: 1.0em;
+        font-family: monospace;
+        margin-left: 0%;
+        margin-right: 0%;
+    }
+
+    .introCont{
+        margin-left: 5%;
+        margin-right: 5%;
+        text-overflow: inherit;
+    }
+    .loc-caption:before {
+        content: attr(title);
+        display: block;
+    }
 }
 
-}
