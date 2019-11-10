@@ -46,7 +46,10 @@ a{
         margin-left: 0%;
         margin-right: 0%;
     }
-
+    .text{
+        margin-left:  10%;
+        margin-right: 10%;
+    }
     .introCont{
         margin-left:  10%;
         margin-right: 10%;
@@ -62,22 +65,3 @@ a{
     
    
 }
-/*
-img {
-    margin: 0 auto;
-    align-content: center;
-    width: 50%;
-    padding-bottom: 20px;
-    padding-left: 25%;
-    padding-right: 25%;
-}
-
-img {
-    margin: 0 auto;
-    align-content: center;
-    width: 50%;
-    padding-bottom: 20px;
-    padding-left: 25%;
-    padding-right: 25%;
-}
-*/
