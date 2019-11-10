@@ -1,11 +1,10 @@
 body{
-    background-image:linear-gradient(rgba(0, 0, 0, 0.9), rgba(0, 0, 0, 0.5)),  url("../IMG/CloudIMG.JPG");
-    background-attachment: fixed;   
+    background-color:#162126;
     color: white;
     font-family: monospace;
 }
 a{
-    color: #387D7A;
+    color: #c48271;
 }
 .loc-caption:before {
     content: attr(title);
