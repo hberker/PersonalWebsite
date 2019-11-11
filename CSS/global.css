@@ -34,6 +34,14 @@ a{
       margin-right: 15%;
       overflow: auto
     }
+    .prprojectIMG, img{
+        width: 80%;
+        align-self: center;
+        padding-left: 10%;
+        padding-right: 10%;
+
+
+    }
 }
   
 
@@ -58,6 +66,13 @@ a{
         width: 80%;
         margin-right: 10%;
 
+    }
+    .prprojectIMG, img{
+        padding-left: 0%;
+        padding-right: 0%;
+        display: block;
+        align-content: center;
+        width: 100%;
     }
    
     
