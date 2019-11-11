@@ -11,14 +11,22 @@
     transition: 0.5s;
   }
   h1{
-    color: white;
+    color: #162126;
     display: block;
     margin: 2% auto;
-    padding-bottom: 20px;
     text-align: center;
     font-size: 1.5em;
     font-family: monospace;
-}
+    
+    border-radius: 25px;
+    background: #d7d7d7; 
+    padding: 15px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+
+    width: 35vh;
+    border-color: black;
+  }
 
 
   .overlay-content {
@@ -40,6 +48,8 @@
   
   .overlay a:hover, .overlay a:focus {
     color: #f1f1f1;
+    
+
   }
   
   .overlay .closebtn {
