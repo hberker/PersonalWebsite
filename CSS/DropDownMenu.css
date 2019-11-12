@@ -11,8 +11,6 @@
     transition: 0.5s;
   }
   
-
-
   .overlay-content {
     position: relative;
     top: 25%;
@@ -32,7 +30,6 @@
   
   .overlay a:hover, .overlay a:focus {
     color: #f1f1f1;
-    
 
   }
   
