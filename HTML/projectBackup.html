@@ -1,0 +1,281 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" type="text/css" href="../CSS/DropDownMenu.css">
+        <link rel="stylesheet" type="text/css" href="../CSS/projects.css">
+        <link rel="stylesheet" type="text/css" href="../CSS/global.css">
+        <link rel="stylesheet" type="text/css" href="../CSS/collapsible.css">
+        <script src="../CODE/popup.js"></script>
+    </head>
+    <body>
+        <!-- The overlay -->
+        <div id="myNav" class="overlay">
+            <!-- Button to close the overlay navigation -->
+            <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+            <!-- Overlay content -->
+            <div class="overlay-content">
+                <a href="main.html">Home</a>
+                <a href="projects.html">Projects</a>
+                <a href="about.html">About</a>
+                <a href="contact.php">Contact</a>
+            </div>
+        </div>
+        <!-- The Name/menu-->
+        <div class="headerTop">
+            <span class="MenuName" style="font-size:30px;cursor:pointer" onclick="openNav()"><h1>HOSNI BERKER</h1></span>
+        </div>
+        <div class="introCont">
+            <div class = "postContent"> 
+                <h2 >Projects</h2>
+                <p>
+                    Every since I started programming I have worked on various projects in my free time. 
+                     All of these projects stem from my interests in different computer science topics 
+                     like machine learning, web scraping, data manipulation and game development. Many 
+                     of my projects required me to first learn the languages' syntax before I could begin coding. 
+                </p>
+                <p>
+                    The complexity of these projects range from simple games to advanced machine learining algorithms.
+                     Some projects took weeks to code and required me to spend hours to 
+                    overcome problems. Others, only took a couple of days. Usually these quicker projects
+                    consisted of me learning a specific language through a project like snake or mine sweepers. 
+                </p>
+                <p>
+                    To find out more about a project or to even try them yourself just click on 
+                     a project name underneath and it will show you the description of the project. To check it 
+                    out on GitHub just click on the "GitHub" logo and it will direct you to the project on
+                    the site.
+                </p>
+                <p>
+                    Feel free to check out these projects and try them yourself. 
+                </p>
+            </div>
+            <!--Start of Projects-->
+            <h2>Python</h2>
+            <button class="collapsible"><b>Terminal Coding Challenge</b></button>
+            <div class="content">
+                <p>
+                    This challenge consited of writing a bot in python to compete against other bots.
+                    The goal of which is to win by placing pieces and defeneding against enemy attacks.
+                    My algorithm for this challenge went through many frastic changes as my strategy
+                    changed. 
+                </p>
+                <p>
+                    The highest rank I have achieved so far through my bots is <a href="https://terminal.c1games.com/leaderboard">#42 globablly</a>.
+                </p>
+                <a href ="https://github.com/hberker/TerminalAIBot"><img style="width: 10%" src="../IMG/GitHub_Logo_White.png"></a>
+            </div>
+            <div style="height: 1px"></div>
+            <button class="collapsible"><b>Halite Coding Challenge</b></button>
+            <div class="content">
+                <p>
+                    This challenge consited of writing a bot in python to compete against other bots.
+                    The goal of which is to win by coding logic for ships to collect a resource called Halite,
+                    return it back to base, and avoid enemy ships.
+                </p>
+                <a href ="https://github.com/hberker/Halite-3-Bot"><img style="width: 10%" src="../IMG/GitHub_Logo_White.png"></a>
+            </div>
+            <div style="height: 1px"></div>
+            <button class="collapsible"><b>WebScraper</b></button>
+                <div class="content">
+                        <p>
+                                This webscraper was built in python and, you guessed it,
+                                scraped the web. It worked by being given a link, then reading
+                                all the text on the site and compiling a list of string. It
+                                would then sepreate this into new links and text. then it would 
+                                read the text to see if any preassigned keywords popped up, record
+                                its findings on an excel sheet, and move on to the next site in 
+                                it's list. 
+                            </p>
+                            <p>
+                                This bot was a lot of fun and was even able to read through twitter
+                            </p>
+                    <a href ="https://github.com/hberker/Python-Web-Scrapper"><img style="width: 10%" src="../IMG/GitHub_Logo_White.png"></a>
+                </div>
+            <div style="height: 1px"></div>
+            <button class="collapsible"><b>Top Down Arcade Game</b></button>
+                <div class="content">
+                    <p>
+                        This game was one of the first I coded in python.
+                        It was done for a class and required me to learn 
+                        the pygame library.
+                    </p>
+                    <img class="projectIMG" src="../IMG/gamePic.png">
+                    <a href ="https://github.com/hberker/Topdown-Shooter"><img style="width: 10%" src="../IMG/GitHub_Logo_White.png"></a>
+                </div>         
+            <div style="height: 1px"></div>
+            <button class="collapsible"><b>Instagram Follow Bot</b></button>
+            <div class="content">
+                <p>
+                    This is the very first coding project I have ever completed. It wanted to
+                    write a program that would go through a list of usernames and follow each 
+                    of them. THe script could then be run again to unfollow them. The idea for
+                    this bot was a application for small companys to use in order to reach a larger
+                    following and base on social media. 
+                </p>
+                <a href ="https://github.com/hberker/Instagram-Follow-Bot"><img style="width: 10%" src="../IMG/GitHub_Logo_White.png"></a>
+            </div>
+            <h2><b>Java</b></h2>
+            <button class="collapsible"><b>Conway's Game of Life</b></button>
+            <div class="content">
+                <p>
+                    I was fascinated by Conway's Game of Life and wanted to try and create my own 
+                    version in java following the games basic rules. This project also required 
+                    a user interface integrated with an algorithm.
+                </p>
+                <p>For more information about Conways Game of Life click <a href="https://en.wikipedia.org/wiki/Conway%27s_Game_of_Life">here</a></p>
+          
+                <a href ="https://github.com/hberker/Conways-Game-Of-Life"><img style="width: 10%" src="../IMG/GitHub_Logo_White.png"></a>
+            </div>
+
+            <div style="height: 1px"></div>
+
+            <button class="collapsible"><b>Tic-Tac-Toe Genetic Algorithm</b></button>
+            <div class="content">
+                <p>
+                    I wanted to try using the word finding algorithm used in the word finder program in 
+                    another capacity. I decieded to use it in the respect of the game Tic-Tac-Toe. The end
+                    result was much better than the snake AI. After a couple hours of training the AI was able to 
+                    compenently beat it's original AI, before training, and play well against a human player.
+                </p>
+                <a href ="https://github.com/hberker/TicTacToeGeneticAlgo"><img style="width: 10%" src="../IMG/GitHub_Logo_White.png"></a>
+            </div>
+
+            <div style="height: 1px"></div>
+
+            <button class="collapsible"><b>Snake Neural Network</b></button>
+            <div class="content">
+                <p>
+                    This project seemed like a natural progression after coding a gentic algorithm and snake. 
+                    I wanted to merge the two and create snake that would teach itself how to play. In order 
+                    to program this I had to create the framework for how the neural network would function. 
+                    this proved a huge challenge and took a whole month of work and the best I was able to achieve 
+                    was a snake that could avoid walls. 
+                </p>
+          
+                <a href ="https://github.com/hberker/Snake-Neural-Network"><img style="width: 10%" src="../IMG/GitHub_Logo_White.png"></a>
+            </div>
+
+            <div style="height: 1px"></div>
+
+            <button class="collapsible"><b>Snake in Java</b></button>
+            <div class="content">
+                <p>
+                    I feel like creating snake is Hello World 2.0 of learning a language. It requires
+                     one to have an understand of how a language process data and how to visualize that
+                     data into snake. This project was not too difficult but was my first expirence in game
+                     design. 
+                </p>
+          
+                <a href ="https://github.com/hberker/Snake"><img style="width: 10%" src="../IMG/GitHub_Logo_White.png"></a>
+            </div>
+
+            <div style="height: 1px"></div>
+
+            <button class="collapsible"><b>Cranbrook Network Application</b></button>
+            <div class="content">
+                <p>
+                    I wanted to try and create a project that had real world application. With this in 
+                     mind I created an application that would access my school's website and would retreive ones schedule 
+                     and homework for the day or week. I also created a GUI for the application using the knowlege from 
+                     my MineSweeper project.
+                </p>
+          
+                <a href ="https://github.com/hberker/CNETAPP"><img style="width: 10%" src="../IMG/GitHub_Logo_White.png"></a>
+            </div>
+
+            <div style="height: 1px"></div>
+
+            <button class="collapsible"><b>MineSweeper GUI</b></button>
+            <div class="content">
+                <p>
+                    I had never created a program with a user interface before and so this mine sweepers game 
+                     was my first attempt. It required me to learn java's JFrame software and how to use mouse
+                     clicks to change game states. 
+                </p>
+          
+                <a href ="https://github.com/hberker/MIneSweeperGUI"><img style="width: 10%" src="../IMG/GitHub_Logo_White.png"></a>
+            </div>
+
+            <div style="height: 1px"></div>
+
+            <button class="collapsible"><b>Genetic algorithm Word Finder</b></button>
+            <div class="content">
+                <p>
+                    I wanted to learn about machine learning. As a junior, I wasnt ready for a more complex
+                    machine learning. I built this project as a proof of concept for a genetic algorithm. This 
+                    program was given a word and asked to find it while only being given a fitness score based on 
+                    the word it presents. Over time it gets closer and closer to the real word.
+                </p>
+                <p>For my about genetic algorithms check it out <a href="https://en.wikipedia.org/wiki/Genetic_algorithm">here</a></p>
+                <a href ="https://github.com/hberker/GeneticAlgoWordFinder"><img style="width: 10%" src="../IMG/GitHub_Logo_White.png"></a>
+            </div>
+
+            <div style="height: 1px"></div>
+
+            <button class="collapsible"><b>Discord Challonge Bot</b></button>
+            <div class="content">
+                <p>
+                    In order to be able to run tournaments through discord I coded this bot. It works
+                    by using the Discord API with the Challonge API in order to run tournaments, report matches,
+                    adds players to voice chat channels. The bot also had many fun commands for the users of 
+                    the discord channel to use. 
+                </p>
+                <a href ="https://github.com/hberker/Discord-Challonge-Bot"><img style="width: 10%" src="../IMG/GitHub_Logo_White.png"></a>
+            </div>
+            <div style="height: 1px"></div>
+            <h2><b>C++</b></h2>
+            <button class="collapsible"><b>Ray Tracer</b></button>
+            <div class="content">
+                <p>
+                    This project required me to gain an understanding of advanced calculus in order to 
+                    code advanced scenes with sphere, reflections, ligjt, color and checkerboard patterns. 
+                    This was the first project that required me to research before beginning coding.
+                </p>
+                <img class="projectIMG"  src="../IMG/scene.bmp">
+                <a href ="https://github.com/hberker/RayTracer"><img style="width: 10%" src="../IMG/GitHub_Logo_White.png"></a>
+            </div>
+            <div style="height: 1px"></div>
+            <button class="collapsible"><b>Small Snake</b></button>
+            <div class="content">
+                <p>
+                    Have you ever looked at code and said to yourself, "This is way to understandable"?
+                    Well your search is over. Small snake is a program I wrote to try and create the game 
+                    snake with as few lines as possible and to make those few lines as impossible to read
+                    as possible.
+                </p>
+                <img class="projectIMG"  src="../IMG/snakePic.png">
+                <a href ="https://github.com/hberker/Small-Snake"><img style="width: 10%" src="../IMG/GitHub_Logo_White.png"></a>
+            </div>
+            <div style="height: 1px"></div>
+            <button class="collapsible"><b>Lossy Image Compression</b></button>
+            <div class="content">
+                <p>
+                    Inspired by a Reddit gif where an image of a dog is cut up and rearranged into four, more distorted
+                    versions, I set out to code something similar. Using a C++ library call png++ I coded and algorithm 
+                    that would take an image and rearranged the pixels in order to create a new versions of each element. 
+                    So in short put in a picture of a dog and you will get four versions of that dog each made from the pixels 
+                    of the original yet still resembling it.
+                </p>
+                
+                <p>For example, here is an original input image:</p>
+                    
+                    <img class="projectIMG" src="../IMG/mouse.png">
+                <p>and after one cycle of compression:</p>
+                    <img class="projectIMG" src="../IMG/mouse_output.png">
+                <p>
+                    In this total pixels of the image and their vaules do not change. Instead, more versions of the image are 
+                    created through changing the organization of the pixture.
+                </p>
+                <a href ="https://github.com/hberker/lossy-image-compression"><img style="width: 10%" src="../IMG/GitHub_Logo_White.png"></a>
+            </div>
+            <div style="height: 1px"></div>
+            <p class = "postContent,introCont">
+                If you would like to check out my GitHub Profile 
+                where most of these projects are hosted click <a href="https://github.com/hberker">here</a>
+            </p>
+            </div>
+            
+        <script  src="../CODE/Collapsible.js"></script>
+    </body>
+</html>

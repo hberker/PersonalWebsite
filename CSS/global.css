@@ -1,8 +1,10 @@
 body{
-    background-color:#162126;
     color: white;
+    background-color: #162126;
     font-family: monospace;
+    margin: 0;
 }
+
 a{
     color: #c48271;
 }
@@ -10,8 +12,40 @@ a{
     content: attr(title);
     display: block;
 }
+section{
+    margin:0px;
+    padding:1em 0;
+}
+
+section:nth-child(4) {
+    background: #2A3132;
+}
+section:nth-child(5) {
+    background: #763626;;
+}
+section:nth-child(6) {
+    background: #336B87;
+}
+section:nth-child(7) {
+    background: #90AFC5;
+}
+
+
 @media screen and (max-width: 2000px) {
-    
+    .modal {
+        display: none; /* Hidden by default */
+        position: fixed; /* Stay in place */
+        overflow-y: auto;
+        z-index: 1; /* Sit on top */
+        padding-top: 0px; /* Location of the box */
+        left: 0;
+        top: 0;
+        width: 100%; /* Full width */
+        height: 100%; /* Full height */
+        overflow: scroll; /* Enable scroll if needed */
+        background-color: rgb(0,0,0); /* Fallback color */
+        background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
+      }
     .imgOfMe {
         width: 40%;
         margin-top: 10px;
@@ -28,12 +62,27 @@ a{
       color: white;
       font-size: 1.2em;
       font-family: monospace;
+        
     }
-    
+    .projectBox{
+        margin-right: 10%;
+        margin-left: 15%;
+        display: flex;
+    }
+    button{
+        width: 30%;
+        height: 200px;
+        margin: 5px;
+    }
+    h2{
+        padding: 0;
+        margin: 0;
+
+    }
     .introCont{
       margin-left: 15%;
       margin-right: 15%;
-      overflow: auto
+      overflow: auto;
     }
     .indexImgOfMe, img{
         width: 35%;
@@ -42,16 +91,21 @@ a{
         padding-right:32.5%;
     }
     .prprojectIMG, img{
-        width: 80%;
-        padding-left: 10%;
-        padding-right: 10%;
+        width: 60%;
+        padding-left: 20%;
+        padding-right: 20%;
     }
     .aboutText{
         text-align: left;
         margin-right: 0px;
     }
+    .langName{
+        font-size: 2em;;
+    }
     h2, .text{
         text-align: center;
+        font-size: 1.5em;
+        padding-bottom: 5px;
     }
     h1{
         color: #162126;
@@ -70,9 +124,50 @@ a{
         width: 35vh;
         border-color: black;
       }
+    .modalText{
+        margin-right: 20%;
+        margin-left: 20%;
+    }
+      /* Modal Content */
+    .modal-content {
+        background-color: #fefefe;
+        margin: auto;
+        color: black;
+        padding: 0;
+        border: 1px solid #888;
+        width: 80%;
+        box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2),0 6px 20px 0 rgba(0,0,0,0.19);
+        -webkit-animation-name: animatetop;
+        -webkit-animation-duration: 0.4s;
+        animation-name: animatetop;
+        animation-duration: 0.4s
+    }
 }
   
 @media screen and (max-width: 700px) {
+    .modal-content {
+        width: 95%;
+    }
+    .modal {
+        display: none; /* Hidden by default */
+        position: fixed; /* Stay in place */
+        overflow-y: auto;
+        max-height: calc(100vh );
+        z-index: 1; /* Sit on top */
+        padding-top: 0px; /* Location of the box */
+        left: 0;
+        top: 0;
+        width: 100%; /* Full width */
+        height: 100vh; /* Full height */
+        overflow: scroll; /* Enable scroll if needed */
+        background-color: rgb(0,0,0); /* Fallback color */
+        background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
+      }
+    
+    .modalText{
+        margin-right: 10%;
+        margin-left: 10%;
+    }
     .postContent{
         color: white;
         font-size: 1.0em;
@@ -88,6 +183,15 @@ a{
         margin-left:  10%;
         margin-right: 10%;
     }
+    button{
+        width: 100%;
+    }
+    .projectBox{
+        margin-right: 10%;
+        margin-left: 10%;
+        display: block;
+
+    }
     .indexImgOfMe,img{
         width: 50%;
         padding-left:25%;
@@ -98,10 +202,10 @@ a{
         margin-right: 10%;
 
     }
-    .prprojectIMG, img{
-        padding-left: 0%;
-        padding-right: 0%;
-        width: 100%;
+    .projectIMG, img{
+        padding-left: 10%;
+        padding-right: 10%;
+        width: 80%;
     }
     h1{
         color: #162126;
@@ -120,8 +224,5 @@ a{
         width: 60%;
         border-color: black;
       }
-   
-    
-    
-   
 }
+

@@ -120,35 +120,37 @@ if(isset($_POST["submit"]))
   <div class="container">
    <!--<h2 align="center">Contact Me</h2>
    <br />-->
-   <div class="col-md-6" style="margin:0 auto; float:none; color:black;">
-    <form method="post">
-     <h3>Contact Form</h3>
-     <br />
-     <h3 class="error"><?php echo $error; ?></h2>
-     <div class="form-group">
-      <label>Enter Name</label>
-      <input type="text" name="name" placeholder="Enter Name" class="form-control" value="<?php echo $name; ?>" />
-     </div>
-     <div class="form-group">
-      <label>Enter Email</label>
-      <input type="text" name="email" class="form-control" placeholder="Enter Email" value="<?php echo $email; ?>" />
-     </div>
-     <div class="form-group">
-      <label>Enter Subject</label>
-      <input type="text" name="subject" class="form-control" placeholder="Enter Subject" value="<?php echo $subject; ?>" />
-     </div>
-     <div class="form-group">
-      <label>Enter Message</label>
-      <textarea name="message" class="form-control" placeholder="Enter Message"><?php echo $message; ?></textarea>
-     </div>
-     <div class="form-group" align="center">
-      <input type="submit" name="submit" class="btn btn-info" value="Submit" />
-     </div>
-    </form>
-   </div>
-  </div>
-</div>
+        <div class="col-md-6" style="margin:0 auto; float:none; color:black;">
+        <form method="post">
+            <h3>Contact Form</h3>
+            <br />
+            <h3 class="error"><?php echo $error; ?></h2>
+            <div class="form-group">
+            <label>Enter Name</label>
+            <input type="text" name="name" placeholder="Enter Name" class="form-control" value="<?php echo $name; ?>" />
+            </div>
+            <div class="form-group">
+            <label>Enter Email</label>
+            <input type="text" name="email" class="form-control" placeholder="Enter Email" value="<?php echo $email; ?>" />
+            </div>
+            <div class="form-group">
+            <label>Enter Subject</label>
+            <input type="text" name="subject" class="form-control" placeholder="Enter Subject" value="<?php echo $subject; ?>" />
+            </div>
+            <div class="form-group">
+            <label>Enter Message</label>
+            <textarea name="message" class="form-control" placeholder="Enter Message"><?php echo $message; ?></textarea>
+            </div>
+            <div class="form-group" align="center">
+            <input type="submit" name="submit" class="btn btn-info" value="Submit" />
+            </div>
+        </form>
+        </div>
+        </div>
+        </div>
 
         </div>
+        <br>
+        <br>
     </body>
 </html>
