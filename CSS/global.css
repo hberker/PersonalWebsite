@@ -117,7 +117,7 @@ section:nth-child(7) {
         display: block;
         margin: 2% auto;
         text-align: center;
-        font-size: 2.5em;
+        font-size: 6vh;
         font-family: monospace;
         
         border-radius: 25px;
@@ -217,7 +217,7 @@ section:nth-child(7) {
         display: block;
         margin: 2% auto;
         text-align: center;
-        font-size: 1.8em;
+        font-size: 3vh;
         font-family: monospace;
         
         border-radius: 25px;
