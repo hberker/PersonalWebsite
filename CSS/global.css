@@ -73,6 +73,9 @@ section:nth-child(7) {
         width: 30%;
         height: 200px;
         margin: 5px;
+        border-radius: 5px;
+        background-color: white;
+        color: black;
     }
     h2{
         padding: 0;
@@ -185,6 +188,7 @@ section:nth-child(7) {
     }
     button{
         width: 100%;
+        border-radius: 4px;
     }
     .projectBox{
         margin-right: 10%;
