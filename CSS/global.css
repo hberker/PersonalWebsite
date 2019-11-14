@@ -29,8 +29,10 @@ section:nth-child(6) {
 section:nth-child(7) {
     background: #90AFC5;
 }
-
-
+.disabled {
+    opacity: 0.6;
+    cursor: not-allowed;
+}
 
 @media screen and (max-width: 2000px) {
     .modal {
@@ -75,9 +77,11 @@ section:nth-child(7) {
         border-radius: 5px;
         outline: none;
         background-color: #e6c276;
-        border-width: 1px;
+        border-width: 5px;
         border-color: white;
         color: #fff8e8;
+        cursor: pointer;
+        box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
     }
     h2{
         padding: 0;
