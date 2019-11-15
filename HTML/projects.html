@@ -43,7 +43,7 @@
                      of my projects required me to first learn the languages' syntax before I could begin coding. 
                 </p>
                 <p>
-                    The complexity of these projects range from simple games to advanced machine learining algorithms.
+                    The complexity of these projects range from simple games to advanced machine learning algorithms.
                      Some projects took weeks to code and required me to spend hours to 
                     overcome problems. Others, only took a couple of days. Usually these quicker projects
                     consisted of me learning a specific language through a project like snake or mine sweepers. 
@@ -88,7 +88,7 @@
                         </p>
                         <p class="modalText">
                             I started this project first by actually coding the game, and
-                            once that was finsihed I began slowly find portions that could
+                            once that was finished I began slowly find portions that could
                             be shorted including variables. My goal was for in the end, the 
                             purpose of the code to be almost unrecognizable.
                         </p>
@@ -124,7 +124,7 @@
                             </p>
                             <p class="modalText">
                                 The program works by casting a ray object through a camera point and a screen point
-                                then returning what it hits. This seems easy but once you start adding light, relectivity, 
+                                then returning what it hits. This seems easy but once you start adding light, reflectivity, 
                                 roughness, and so on it becomes much much harder.
                             </p>
                             <p class="modalText">Here is a sketch of how ray tracing works:</p>
@@ -150,7 +150,7 @@
                                 <h2>Lossy Image Compressor</h2>
                             </div>
                             <p class="modalText">
-                                I began this project after being imspired by a gif of an image being converted into four versions
+                                I began this project after being inspired by a gif of an image being converted into four versions
                                 of depleted quality using only a pasta shredder and tape. I thought that the idea of this process was
                                 both interesting and something that could recreated through code.
                             </p>
@@ -160,7 +160,7 @@
                                 me to write and change pixels arrays and write them out as new images. 
                             </p>
                             <p class="modalText">
-                                In essense the program works by taking an image like this:
+                                In essence the program works by taking an image like this:
                             </p>
                             <img class="projectIMG"  src="../IMG/mouse.png">
                             <p class="modalText">
@@ -212,12 +212,37 @@
                 <button class="button disabled" data-modal="modal12">
                         <h3>New Projects Coming Soon!</h2>
                 </button>
+            <!-- Modal Content-->
             </div>
                 <div id="modal4" class="modal">
                     <div class="modal-content">
                         <div class="contact-form">
+                            <div class="modal-header">
+                                <span class="close">&times;</span>
+                                <h2>Conway's Game of Life</h2>
+                            </div>
+                            <p class="modalText">
+                                Conway's Game of Life is a cellular automaton created by John Conway.
+                                It works by using basic logic to simulate whether cells in a 2D landscape
+                                survive, die, or reproduce.                     
+                            </p>
+                            <p class="modalText">
+                                I was fascinated by Conway's Game of Life and wanted to try and create my own 
+                                version in Java following the games basic rules. For this project I used Java's 
+                                JFrame to create a User Interface that allows the users to pick locations for new cells.
+                            </p>
+                            <p class="modalText">
+                                The simulation can result in many unique and interesting patterns.
+                            </p>
+                            <img class="projectIMG" src="../IMG/Gospers_glider_gun.gif">
+                            <br>
+                            <p class="modalText">
+                                To learn more about Conway's Game of Life see the <a href="https://en.wikipedia.org/wiki/Conway%27s_Game_of_Life">wikipedia page</a>.
+                            </p>
+                            <div class="modal-footer">
+                                <a href ="https://github.com/hberker/Conways-Game-Of-Life"><img style="width: 10%" src="../IMG/GitHub_Logo_White.png"></a>
+                            </div>
                             <span class="close">&times;</span>
-                            <h2>Conway's Game of Life</h2><br>
                         </div>
                     </div>
                 </div>
@@ -225,7 +250,31 @@
                     <div class="modal-content">
                         <div class="contact-form">
                             <span class="close">&times;</span>
-                            <h2>Tic-Tac-Toe Genetic Algorithm</h2><br>
+                            <div class="modal-header">
+                                <span class="close">&times;</span>
+                                <h2>Tic-Tac-Toe Genetic Algorithm</h2><br>
+                            </div>
+                            <p class="modalText">
+                                The objective of this project was to train an A.I. that could play against a human relatively well.
+                            </p>
+                            <p class="modalText">
+                                The A.I. learned by playing against individuals in a population. Each individual was given a random 
+                                move for each possible board state and then played against another individual. The winner would then 
+                                go on to play another winner until only two were left. These two would then have their moves for particular 
+                                board states traded randomly and multiple different ways in order to create the next generation. The next
+                                generation would the continue this cycle.
+                            </p>
+                            <p class="modalText"> 
+                                In order to make sure that the A.I. was learning I would, evert X generations, have the A.I. play against 
+                                itself from past generations in order to see if it was improving. 
+                            </p>
+                            <p class="modalText"> 
+                                The end result of two days of training was an A.I. that would win if given the chance and block against potential
+                                loses.
+                            </p>
+                            <div class="modal-footer">
+                                <a href ="https://github.com/hberker/TicTacToeGeneticAlgo"><img style="width: 10%" src="../IMG/GitHub_Logo_White.png"></a>
+                            </div>
                         </div>
                     </div>
                 </div>
