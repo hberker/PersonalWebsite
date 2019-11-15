@@ -36,6 +36,7 @@ section:nth-child(7) {
 
 @media screen and (max-width: 2000px) {
     .modal {
+        background-color: #fefefe;
         display: none; /* Hidden by default */
         position: fixed; /* Stay in place */
         overflow-y: auto;
@@ -49,6 +50,9 @@ section:nth-child(7) {
         background-color: rgb(0,0,0); /* Fallback color */
         background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
       }
+    .aboutText{
+        font-size: .8em;
+    }
     .imgOfMe {
         width: 40%;
         margin-top: 10px;
@@ -61,7 +65,7 @@ section:nth-child(7) {
     }
     .postContent{
       color: white;
-      font-size: 1.2em;
+      font-size: 1.6em;
       font-family: monospace;
         
     }
@@ -76,7 +80,7 @@ section:nth-child(7) {
         margin: 5px;
         border-radius: 5px;
         outline: none;
-        background-color: #4a2040;
+        background-color: #3f3f37;
         border-width: 5px;
         border-color: white;
         color: #fff8e8;
@@ -187,7 +191,7 @@ section:nth-child(7) {
         margin-left:  0%;
         margin-right: 0%;
         
-        font-size: 1.4em;
+        font-size: 1.5em;
     }
     .aboutText{
         padding-top: 5px;
