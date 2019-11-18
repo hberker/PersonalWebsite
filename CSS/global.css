@@ -139,6 +139,7 @@ section:nth-child(7) {
     .modalText{
         margin-right: 20%;
         margin-left: 20%;
+        font-size: 1.3em;
     }
       /* Modal Content */
     .modal-content {
