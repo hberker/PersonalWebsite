@@ -70,10 +70,9 @@ a.closebtn {
 }
 
 .headerbar a {
-	margin: .5em;
+	margin: 1em;
 	display: inline-block;
 	color: var(--fg-clr);
-	margin-bottom: .2em;
 }
 
 .img {
