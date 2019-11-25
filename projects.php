@@ -267,7 +267,6 @@ a library called <a href="https://selenium.dev/">Selenium</a> which allows one t
 </p>
 html;
 make_project("Cranbrook Homework Application", "cha", "java", "CNETAPP", $content);
-
 ?>
 
 	</div>

@@ -82,23 +82,14 @@ if(isset($_POST["submit"]))
  }
 }
 ?>
-<!DOCTYPE html>
-<html>
-    <head>
-        <meta name="viewport" content="width=device-width, initial-scale=1">
-        <link rel="stylesheet" type="text/css" href="../CSS/main.css">
-
-    </head>
-    <body>
-       
-        <div class="text center wordy"">
-            <div class = "postContent">
-                <h2>Contact</h2>
-                <p>
-                   Feel free to reach out with any questions.
-                </p>
-            <div class="container">
-                <br />
+<div class="text center wordy"">
+    <div class = "postContent">
+        <h2>Contact</h2>
+        <p>
+            Feel free to reach out with any questions.
+        </p>
+    <div class="container">
+        <br/>
   <div class="flex">
         <div class="col-md-6" style="margin:0 auto; float:none; color:black;">
         <form method="post">
@@ -123,14 +114,12 @@ if(isset($_POST["submit"]))
             </div>
             <div class="form-group" align="center">
             <input type="submit" name="submit" class="btn btn-info" value="Submit" />
-            </div>
-        </form>
         </div>
-        </div>
-        </div>
+    </form>
+    </div>
+    </div>
+    </div>
 
-        </div>
-        <br>
-        <br>
-    </body>
-</html>
+</div>
+<br>
+<br>
