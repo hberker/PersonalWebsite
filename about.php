@@ -2,7 +2,7 @@
 <div class="text center wordy">
     <div ">
         <div>
-            <a><img class="imgcenter logo" src="IMG/hb.png"></a>
+            <a><img class="logo img round" src="IMG/hb.png"></a>
             <h2 >About Me</h2>
             <p >
                 Hello, my name is Hosni Berker. I graduated from Cranbrook High School in 2019 and I am currently a freshman at Michigan State University pursuing 
