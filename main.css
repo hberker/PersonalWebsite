@@ -67,12 +67,14 @@ a.closebtn {
 	margin-bottom: 1em !important;
 	max-width: 30em;
 	border-bottom: 1px dashed var(--hl-clr);
+	
 }
 
 .headerbar a {
-	margin: 1em;
+	margin: .5em;
 	display: inline-block;
 	color: var(--fg-clr);
+	margin-bottom: .2em;
 }
 
 .img {
@@ -222,7 +224,6 @@ a.right{
 		margin-left: 0;
 		max-width:30em;
 		display: inline-block;
-		justify-content: center;
 		width: 100%;
 	}
 	.lang button{
@@ -231,18 +232,12 @@ a.right{
 		margin-right: 0;
 	}
 	.headerbar {
-		display: block;
 		padding-top: 1em;
 		min-width: 0;
-		margin-bottom: 1em !important;
-		max-width: 30em;
-		border-bottom: 1px dashed var(--hl-clr);
 	}
 	
 	.headerbar a {
 		margin: .2em;
 		font-size: 4vw; /*.5em;*/
-		display: inline-block;
-		color: var(--fg-clr);
 	}
 }
