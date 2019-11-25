@@ -1,5 +1,5 @@
 <div class="center">
-	<img class="img round" src="IMG/imageofme.png">
+	<img class="logo img round" src="IMG/imageofme.png">
 </div>
 <div class="text center">
 	<h2>Welcome!</h2>
