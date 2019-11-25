@@ -223,6 +223,9 @@ a.right{
 	justify-content: center;
 	margin: auto;
 }
+a:hover{
+	color: #aaa;
+}
 @media screen and (max-width: 800px) {
 	.projBox{
 		margin-right: 0;
