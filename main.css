@@ -66,8 +66,7 @@ a.closebtn {
 	padding-top: 1em;
 	margin-bottom: 1em !important;
 	max-width: 30em;
-	border-bottom: 1px dashed var(--hl-clr);
-	
+	border-bottom: 1px dashed var(--hl-clr);	
 }
 
 .headerbar a {
@@ -203,6 +202,7 @@ input[type=submit]:hover {
 a.right{
 	color: white;
 }
+
 .container {
 	border-radius: 5px;
 	background-color: #f2f2f2;
@@ -211,6 +211,13 @@ a.right{
 .error{
 	color: red;
 	font-size: 0.5em;
+}
+.logo{
+	width: 20em;
+	border: 3px solid var(--fg-clr);
+	border-radius: 50%;
+	display: block;
+	margin: auto;
 }
 .projBox{
 	max-width: 25em;
