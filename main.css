@@ -241,7 +241,7 @@ a.right{
 	
 	.headerbar a {
 		margin: .2em;
-		font-size: .5em;
+		font-size: 4vw; /*.5em;*/
 		display: inline-block;
 		color: var(--fg-clr);
 	}
