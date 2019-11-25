@@ -230,6 +230,8 @@ a.right{
 		max-width:30em;
 		display: inline-block;
 		width: 100%;
+		width: 95%;
+        margin: auto;
 	}
 	.lang button{
 		width: 80vw;
