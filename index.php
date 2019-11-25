@@ -11,6 +11,7 @@
 	<meta charset="ISO-8859-1"> 
 	<script src="./popup.js"></script>
 	<link rel="stylesheet" type="text/css" href="./main.css">
+	<link href="https://fonts.googleapis.com/css?family=B612&display=swap" rel="stylesheet"> 
 </head>
 <body data-gr-c-s-loaded="true">
 	<div class="center headerbar">

@@ -1,4 +1,3 @@
-
 <div class="text center wordy">
     <div ">
         <div>
