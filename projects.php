@@ -18,7 +18,7 @@
 			$content
 		</div>
 		<div class="modal-header $lang" onclick="toggleNav('$id');">
-			<a href ="https://github.com/hberker/$url"><img style="width: 10%" src="IMG/GitHub_Logo_White.png""></a>
+			<a href ="https://github.com/hberker/$url"><img style="width: 5em" src="IMG/GitHub_Logo_White.png""></a>
 		</div>
 	</div>
 </div>
