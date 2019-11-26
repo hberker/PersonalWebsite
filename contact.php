@@ -1,6 +1,4 @@
 <?php
-//index.php
-
 $error = '';
 $name = '';
 $email = '';

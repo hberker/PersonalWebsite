@@ -71,6 +71,7 @@ a.closebtn {
 
 .headerbar a {
 	margin: 1em;
+	margin-bottom: .7em;
 	display: inline-block;
 	color: var(--fg-clr);
 }
@@ -226,6 +227,7 @@ a.right{
 }
 a:hover{
 	color: #aaa;
+	font-weight: bold;
 }
 @media screen and (max-width: 800px) {
 	.projBox{
@@ -249,6 +251,6 @@ a:hover{
 	
 	.headerbar a {
 		margin: .2em;
-		font-size: 4vw; /*.5em;*/
+		font-size: 5vw; /*.5em;*/
 	}
 }

@@ -277,6 +277,83 @@ make_project("Cranbrook Homework Application", "cha", "java", "CNETAPP", $conten
 
 	<h2>Python</h2>
 	<div class="projBox">
+		<?php
+$content = <<<html
+<p>
+To start this project I first had to code a instagram scraper that would give me a csv of users that could then be followed and unfollowed.
+The goal of which is that the notification of a new follower would leave some to follow the account. 
+</p>
+<p>
+I build the scrapper to work off of a hashtag in order to find users that would have a higher chance of being interested in your account, i.e. if 
+you have a photography account you would search users under the "photography" or "photo" hashtag.
+</p>
+<p>
+The bot compiles the list of usernames into a csv file, then it can read through this csv and follow/unfollow the user. The end result is
+that a small portion of users will see the notification and check out the account. 
+</p> 
+<p>
+I built this bot for one of my brother's friends who owns a company and wanted a way to bring in more internet traffic to his companies instagram.
+</p>
+<p>
+The code for this is on GitHub but I do warn you this was my first project and the code is fairly rough.
+<p/>
+html;
+make_project("Instagram Bot", "ib", "python", "Instagram-Follow-Bot", $content);
 
+$content = <<<html
+<p>
+This game was one of the first projects I did outside of class just for fun, and being a newer coder
+it's a game.
+</p>
+<p>
+The architecture for this game came from Sendex, a python youtuber, who creates coding tutorials. I followed
+one to create a racing game using pygame. I followed this tutorial and then after rewrote the card into the one
+you see today. 
+</p>
+<p>
+This top down shooter has gone through a multitude of changes as I made the game more and more complicated by:
+<ol>
+<li>Adding a health bar</li>
+<li>Adding a fixed amount of ammunition</li>
+<li>More guns with different advantages and weaknesses</li>
+<li>A kill counter</li> 
+<li>Increasing difficulty rounds</li>
+<li>Textures and sprites</li>
+<li>Etc...</li>
+</ol>
+</p>
+<p>
+Here's a picture of the game in action:
+</p>
+<img class="imgcenter" src="IMG/gamePic.png">
+<p>
+Check it out on github to play!
+</p>
+html;
+make_project("Zombie Assault", "za", "python", "Topdown-Shooter", $content);
+$content=<<<html
+<p>
+The Terminal Coding Challenge is a global A.I. competition based around creating a program
+that will beat other programs in the "terminal" game.
+</p>
+<p>
+Each player takes a turn placing offensive and defensive units and the submits their game state 
+of which the computer simulates the resulting turn and gives the A.I. the board state after.
+</p>
+<img class="imgcenter" src="IMG/terminalBoard.png">
+<p>The bot plays against opponents constantly and gains/loses points based of the ranking of the bot 
+it played against. So although you might be 5-5 you could sill have a better ranking than someone 5-0 depending on
+the ranking of your opponents
+</p>
+<img class="imgcenter" src="IMG/terminalBot.png">
+<p>
+My bot in this competition is currently #33 at the time of writing this which is actually 20 places lower
+than the last time I checked.
+</p>
+<img class="imgcenter" src="IMG/terminalLeader.png">
+<p>click <a href="https://terminal.c1games.com/home">here</a> to check out Terminal's Site and learn more about how the game works</p>
+html;
+make_project("Terminal Coding Challenge", "tcc", "python", "TerminalAIBot", $content);
+?>
 	</div>
 </div>
