@@ -112,10 +112,28 @@ me to write and change pixels arrays and write them out as new images.
 In essence, the program works by taking an image like this:
 </p>
 <img class="imgcenter" src="IMG/mouse.png">
-<p class="modalText">
-And rearranging the pixels in order to create four new versions of the image like this:
+<p>
+And rearranging the pixels in order to create four new versions of the image with one fourth the resolution of the original.
+Here is what the image looks like after one round of compression:
 </p>
-<img class="imgcenter"  src="IMG/mouse_output.png">
+<img class="imgcenter"  src="IMG/mousecomp1.png">
+<p>
+Here's what it looks like after two rounds of compression:
+</p>
+<img class="imgcenter"  src="IMG/mousecomp2.png">
+<p>
+Here's what it looks like after five rounds of compression:
+</p>
+<img class="imgcenter"  src="IMG/mousecomp5.png">
+<p>
+The resolution of each smaller version of the image can be found using the equation:
+</p>
+<p>
+<sup>1&frasl;<sub>4<sup>n</sup></sub>
+</p>
+<p>
+Where n is the amount of compressions. So if you compress the image once the individual image is 1/4 the original resolution.
+</p>
 html;
 		make_project("Lossy Image Compression", "Lossy Image Compression", "cpp", "lossy-image-compression", $content);
 ?>
@@ -243,7 +261,7 @@ built this project as a proof of concept for a genetic algorithm. This program w
 </p>
 <p>For more about genetic algorithms check it out <a href="https://en.wikipedia.org/wiki/Genetic_algorithm">here</a></p>
 html;
-make_project("Genetic algorithm Word Finder", "gwf", "java", "GeneticAlgoWordFinder", $content);
+make_project("Genetic Algorithm Word Finder", "gwf", "java", "GeneticAlgoWordFinder", $content);
 $content=<<<html
 <img class="imgcenter" src="IMG/cnet.png"></li>
 <p>
@@ -344,6 +362,49 @@ then the last time I checked.
 <p>click <a href="https://terminal.c1games.com/home">here</a> to check out Terminal's Site and learn more about how the game works</p>
 html;
 make_project("Terminal Coding Challenge", "tcc", "python", "TerminalAIBot", $content);
+
+$content=<<<html
+<p>
+Before I did the Terminal Coding Challenge, I did the Halite Challenge. The concept of Halite is similar to Terminal in the aspect 
+of using AI to play a game against other AIs 
+</p>
+<img class="imgcenter" src="IMG/haliteboard.png">
+<p>
+The Halite game is played by coding an AI to control ships which must harvest squares with the halite resource. The ships must then bring 
+that Halite back to its base, but if it runs into another ship both ships crash and the Halite they hold is deposited onto that square. 
+</p>
+<p>
+The AI has control over creating ships, new bases, and controlling the actions of each ship.The game records the bot's efficiency and keeps track of its statistics.
+</p>
+<img class="imgcenter" src="IMG/haliteProf.png">
+<p>
+If you are interested in checking out the Halite coding challenge click <a href="https://2018.halite.io/">here</a>
+</p>
+html;
+make_project("Halite Coding Challenge", "hcc", "python", "Halite-3-Bot", $content);
+$content=<<<html
+<p>
+I created this web scraper with a simple purpose in mind: be able to find occurrences of a word or sentence on a website and similar websites.
+</p>
+<p>
+Another one of my goals for this project was I wanted it to be able to find new websites to scrap with as little guidance from the user as possible. 
+With that in mind, I devised a few simple steps the scraper would do when given a website. 
+</p>
+<ol>
+<li>Get all text from the given website.</li>
+<li>Get all links from the given website.</li>
+<li>Check text for occurrences of key words/sentences. If one appears save it to a CSV with a link to where it was found.</li>
+<li>Add the visited website to list of already visited sites.</li>
+<li>Add all links not yet visited to a "frontier" list.</li>
+<li>Visit the next list in the frontier and repeat this cycle.</li>
+</ol>
+<p>
+After being run for some time the Web scraper is able find key words as long as the original site given has some connection to the word and has links. 
+The program has a chance of failing if it unable to find a 
+next website to visit.
+</p>
+html;
+make_project("Website Scraper", "ws", "python", "Python-Web-Scrapper", $content);
 ?>
 	</div>
 </div>
