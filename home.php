@@ -4,6 +4,6 @@
 <div class="text center">
 	<h2>Welcome!</h2>
 	<p>
-		My name is Hosni Berker and I coded this site from scratch using HTML, JavaScript and CSS. 
+		My name is Hosni Berker and I coded this site from scratch using HTML, JavaScript, and CSS.
 	</p>
 </div>

@@ -8,13 +8,9 @@
                 a degree in computer science engineering. 
             </p>
             <p >
-                Outside of class I enjoy ceramics, competing in sailing
+                Outside of class, I enjoy ceramics, competing in sailing
                 regattas across the midwest and coding various projects in 
                 different programming languages.
-            </p>
-            <p>
-                I am currently looking for internship oppertunities for 
-                spring and fall in software development related fields.
             </p>
             <p>    
                 For more information about me check out my <a style="color: #ab4c34" href="DATA/NewResumeHosniBerker.pdf">resume</a>.

@@ -27,27 +27,24 @@ html;
 ?>
 <div class="text center wordy">
 	<h2>Projects</h2>
-<p>
-	Every since I started programming I have worked on various projects in my free time. 
-	 All of these projects stem from my interests in different computer science topics 
-	 like machine learning, web scraping, data manipulation and game development. Many 
-	 of my projects required me to first learn the languages' syntax before I could begin coding. 
-</p>
-<p>
-	The complexity of these projects range from simple games to advanced machine learning algorithms.
-	 Some projects took weeks to code and required me to spend hours to 
-	overcome problems. Others, only took a couple of days. Usually these quicker projects
-	consisted of me learning a specific language through a project like snake or mine sweepers. 
-</p>
-<p>
-	To find out more about a project or to even try them yourself just click on 
-	 a project name underneath and it will show you the description of the project. To check it 
-	out on GitHub just click on the "GitHub" logo and it will direct you to the project on
-	the site.
-</p>
-<p>
-	Feel free to check out these projects and try them yourself. 
-</p>
+	<p>
+		Ever since I started programming I have worked on various projects in my free time. 
+		All of these projects stem from my interests in different computer science topics like machine learning, web scraping, data manipulation, and game development. Many 
+		of my projects required me to first learn the languages' syntax before I could begin coding. 
+	</p>
+	<p>
+		The complexity of these projects ranges from simple games to advanced machine learning algorithms.
+		Some projects took weeks to code and required me to spend hours to overcome problems. Others only took a couple of days. Usually, these quicker projects consisted of me learning a specific language through a project like Snake or Minesweepers. 
+	</p>
+	<p>
+		To find out more about a project or to even try them yourself just click on 
+		a project name underneath and it will show you the description of the project. To check it 
+		out on GitHub just click on the "GitHub" logo and it will direct you to the project on
+		the site.
+	</p>
+	<p>
+		Feel free to check out these projects and try them yourself. 
+	</p>
 </div>
 <div class='center lang cpp'>
 <h2>C++</h2>
@@ -62,12 +59,11 @@ confusing and unreadable code possible.
 <p>
 I started this project first by actually coding the game, and
 once that was finished I began slowly find portions that could
-be shorted including variables. My goal was for in the end, the 
-purpose of the code to be almost unrecognizable.
+be shorted including variables. My goal was for in the end, the purpose of the code to be almost unrecognizable.
 </p>
 <p>
-The following is a image from the game in action. To check out the
- actual code check out my GitHub.
+The following is an image from the game in action. To check out the
+actual code check out my GitHub.
 </p>
 <img class="imgcenter"  src="IMG/snakePic.png">
 html;
@@ -76,26 +72,26 @@ html;
 		
 		$content =<<<html
 <p>
-	After watching a couple videos on the impressive power of ray tracing
-	I wanted to see if I could create my own. 
+After watching a couple of videos on the impressive power of ray tracing
+I wanted to see if I could create my own. 
 </p>
 <p>
-	This project served to be one of the hardest I have ever attempt mostly 
-	due to the fact that at the time I had no taken calculus yet and was 
-	unfamiliar with the math. Out of all the projects I have done this one has 
-	proven the most research heavy. 
+This project served to be one of the hardest I have ever attempt mostly 
+due to the fact that at the time I had no taken calculus yet and was 
+unfamiliar with the math. Out of all the projects I have done this one has 
+proven the most research-heavy. 
 </p>
 <p>
-	The program works by casting a ray object through a camera point and a screen point
-	then returning what it hits. This seems easy but once you start adding light, reflectivity, 
-	roughness, and so on it becomes much much harder.
+The program works by casting a ray object through a camera point and a screen point
+then returning what it hits. This seems easy but once you start adding light, reflectivity, 
+roughness, and so on it becomes much much harder.
 </p>
 <p>
-	Here is a sketch of how ray tracing works:
+Here is a sketch of how ray tracing works:
 </p>
-<img class="imgcenter"  src="IMG/rayTracingExample.png">
+<img class="imgcenter" src="IMG/rayTracingExample.png">
 <p class="modalText">
-	Below is an image created by this ray tracing program in the form of a BMP.
+Below is an image created by this ray-tracing program in the form of a BMP.
 </p>
 <img class="imgcenter"  src="IMG/scene.bmp">
 html;
@@ -103,19 +99,19 @@ html;
 		
 		$content =<<<html
 <p>
-	I began this project after being inspired by a gif of an image being converted into four versions
-	of depleted quality using only a pasta shredder and tape. I thought that the idea of this process was
-	both interesting and something that could recreated through code.
+I began this project after being inspired by a gif of an image being converted into four versions
+of depleted quality using only a pasta shredder and tape. I thought that the idea of this process was
+both interesting and something that could be recreated through code.
 </p>
 <p>
-	I found the hardest part of this project was by far finding a good library to write and change png files, but 
-	after much searching and only almost changing to python in order to use the PIL library I found PNG++. It allowed
-	me to write and change pixels arrays and write them out as new images. 
+I found the hardest part of this project was by far finding a good library to write and change png files, but 
+after much searching and only almost changing to python in order to use the PIL library I found PNG++. It allowed
+me to write and change pixels arrays and write them out as new images. 
 </p>
 <p>
-	In essence the program works by taking an image like this:
+In essence, the program works by taking an image like this:
 </p>
-<img class="imgcenter"  src="IMG/mouse.png">
+<img class="imgcenter" src="IMG/mouse.png">
 <p class="modalText">
 And rearranging the pixels in order to create four new versions of the image like this:
 </p>
@@ -135,11 +131,10 @@ $content =<<<html
 <p>
 Conway's Game of Life is a cellular automaton created by John Conway.
 It works by using basic logic to simulate whether cells in a 2D landscape
-survive, die, or reproduce.                     
+survive, die, or reproduce. 
 </p>
 <p>
-I was fascinated by Conway's Game of Life and wanted to try and create my own 
-version in Java following the games basic rules. For this project I used Java's 
+I was fascinated by Conway's Game of Life and wanted to try and create my own version in Java following the game's basic rules. For this project, I used Java's 
 JFrame to create a User Interface that allows the users to pick locations for new cells.
 </p>
 <p>
@@ -158,11 +153,8 @@ $content = <<<html
 The objective of this project was to train an A.I. that could play against a human relatively well.
 </p>
 <p>
-The A.I. learned by playing against individuals in a population. Each individual was given a random 
-move for each possible board state and then played against another individual. The winner would then 
-go on to play another winner until only two were left. These two would then have their moves for particular 
-board states traded randomly and multiple different ways in order to create the next generation. The next
-generation would the continue this cycle.
+The A.I. learned by playing against individuals in a population. Each individual was given a random move for each possible board state and then played against another individual. The winner would then go on to play another winner until only two were left. These two would then have their moves for particular board states traded randomly and multiple different ways in order to create the next generation. The next
+generation would continue this cycle.
 </p>
 <img class="imgcenter" src="IMG/geneticAlgo.jpg">
 <p> 
@@ -178,8 +170,8 @@ make_project("Tic-Tac-Toe Genetic Algorithm", "ttt", "java", "TicTacToeGeneticAl
 
 $content =  <<<html
 <p>
-Minesweepers was my second G.U.I. based program I every did and like most of my Java projects was done 
-well completing Advanced Placement Computer Science A. It was fun an interesting at the time since I had 
+Minesweepers was my second G.U.I. based program I ever did and like most of my Java projects was done 
+well completing Advanced Placement Computer Science A. It was fun and interesting at the time since I had 
 not done a lot with G.U.I.s and thus was different. 
 </p>
 <p>
@@ -188,7 +180,7 @@ each board piece that isn't a mine shows a number based on the mines nearby as d
 </p>
 <img class="imgcenter" src="IMG/minesweeper.png"">
 <p>
-If you are interested in the code behind the game feel free to check out my github page.
+If you are interested in the code behind the game feel free to check out my GitHub page.
 </p>
 html;
 make_project("Minesweeper", "ms", "java", "MIneSweeperGUI", $content);
@@ -199,7 +191,7 @@ for this bot began when my friend told me he wanted to start a Discord channel t
 I could build something that would assist with making and running tournaments.
 </p>
 <p>
-The end result of the bot was fairly impressive. The final version of the bot could:
+The result of the bot was fairly impressive. The final version of the bot could:
 <ol>
 	<li>Start tournaments</li>
 	<li>End tournaments</li>
@@ -233,22 +225,20 @@ html;
 make_project("Discord Bot", "db", "java", "Discord-Challonge-Bot", $content);
 $content=<<<html
 <p>
-I wanted to learn about machine learning, but didn't want to begin delving into neural networks. I 
-built this project as a proof of concept for a genetic algorithm. This 
-program was given a word and asked to find it while only being given a fitness score based on 
-the word it presents. Over time it gets closer and closer to the real word.
+I wanted to learn about machine learning but didn't want to begin delving into neural networks. I 
+built this project as a proof of concept for a genetic algorithm. This program was given a word and asked to find it while only being given a fitness score based on the word it presents. Over time it gets closer and closer to the real world.
 </p>
 <p>
-	<ol>
+ <ol>
 
-	<li>The program starts by generating a random population each with random character.</li>
-	<li>Then each individual is assigned a fitness based on how close it is to the target word.</li>
-	<img class="imgcenter" src="IMG/fittestInd.png">
-	<li>It then creates a new population based off of these two individuals using crossovers of both individuals 
-	as well as random mutations of character
-	<img style="height:300px" class="imgcenter" src="IMG/gen1gen2.png"></li>
-	<li>This process is then repeated until the word is found.</li>
-	</ol>
+ <li>The program starts by generating a random population each with random character.</li>
+ <li>Then each individual is assigned a fitness based on how close it is to the target word.</li>
+ <img class="imgcenter" src="IMG/fittestInd.png">
+ <li>It then creates a new population based off of these two individuals using crossovers of both individuals 
+ as well as random mutations of character
+ <img style="height:300px" class="imgcenter" src="IMG/gen1gen2.png"></li>
+ <li>This process is then repeated until the word is found.</li>
+ </ol>
 
 </p>
 <p>For more about genetic algorithms check it out <a href="https://en.wikipedia.org/wiki/Genetic_algorithm">here</a></p>
@@ -257,12 +247,12 @@ make_project("Genetic algorithm Word Finder", "gwf", "java", "GeneticAlgoWordFin
 $content=<<<html
 <img class="imgcenter" src="IMG/cnet.png"></li>
 <p>
-I created this project in order to try and extend my programming knowledge into real world "problems". The problem,
+I created this project to try and extend my programming knowledge into real-world "problems". The problem,
 in this case, was not wanting to log on to check what homework I had for that day and instead, being able to run a 
 program that would show me.
 </p>
 <p> 
-I had to find a way to interface with the websites log in page and be able to navigate it. For this I found
+I had to find a way to interface with the website's login page and be able to navigate it. For this I found
 a library called <a href="https://selenium.dev/">Selenium</a> which allows one to navigate webpages through code.
 </p>
 html;
@@ -280,19 +270,19 @@ make_project("Cranbrook Homework Application", "cha", "java", "CNETAPP", $conten
 		<?php
 $content = <<<html
 <p>
-To start this project I first had to code a instagram scraper that would give me a csv of users that could then be followed and unfollowed.
+To start this project I first had to code an Instagram scraper that would give me a CSV of users that could then be followed and unfollowed.
 The goal of which is that the notification of a new follower would leave some to follow the account. 
 </p>
 <p>
-I build the scrapper to work off of a hashtag in order to find users that would have a higher chance of being interested in your account, i.e. if 
+I build the scrapper to work off of a hashtag to find users that would have a higher chance of being interested in your account, i.e. if 
 you have a photography account you would search users under the "photography" or "photo" hashtag.
 </p>
 <p>
-The bot compiles the list of usernames into a csv file, then it can read through this csv and follow/unfollow the user. The end result is
+The bot compiles the list of usernames into a CSV file, then it can read through this CSV and follow/unfollow the user. The result is
 that a small portion of users will see the notification and check out the account. 
 </p> 
 <p>
-I built this bot for one of my brother's friends who owns a company and wanted a way to bring in more internet traffic to his companies instagram.
+I built this bot for one of my brother's friends who owns a company and wanted a way to bring in more internet traffic to his companies Instagram.
 </p>
 <p>
 The code for this is on GitHub but I do warn you this was my first project and the code is fairly rough.
@@ -337,18 +327,18 @@ The Terminal Coding Challenge is a global A.I. competition based around creating
 that will beat other programs in the "terminal" game.
 </p>
 <p>
-Each player takes a turn placing offensive and defensive units and the submits their game state 
+Each player takes a turn placing offensive and defensive units and then submits their game state 
 of which the computer simulates the resulting turn and gives the A.I. the board state after.
 </p>
 <img class="imgcenter" src="IMG/terminalBoard.png">
-<p>The bot plays against opponents constantly and gains/loses points based of the ranking of the bot 
+<p>The bot plays against opponents constantly and gains/loses points based on the ranking of the bot 
 it played against. So although you might be 5-5 you could sill have a better ranking than someone 5-0 depending on
 the ranking of your opponents
 </p>
 <img class="imgcenter" src="IMG/terminalBot.png">
 <p>
 My bot in this competition is currently #33 at the time of writing this which is actually 20 places lower
-than the last time I checked.
+then the last time I checked.
 </p>
 <img class="imgcenter" src="IMG/terminalLeader.png">
 <p>click <a href="https://terminal.c1games.com/home">here</a> to check out Terminal's Site and learn more about how the game works</p>
