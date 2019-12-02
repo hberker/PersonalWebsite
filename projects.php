@@ -68,7 +68,7 @@ actual code check out my GitHub.
 <img class="imgcenter"  src="IMG/snakePic.png">
 html;
 
-		make_project("Small Snake", "SmallSnake", "cpp", "Small-Snake", $content);
+		make_project("Obfuscated Snake", "os", "cpp", "Small-Snake", $content);
 		
 		$content =<<<html
 <p>
