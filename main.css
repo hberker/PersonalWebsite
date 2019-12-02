@@ -142,7 +142,7 @@ a.closebtn {
 	border-bottom: 5px solid #aaa;
 	border-right: 5px solid #aaa;
 	border-radius: 5px;
-	background: #453046;/* #3f3f37;*/
+	background: var(--bg-clr);/* #3f3f37;*/
 	color: inherit;
 	width: 26%;
 	height: 12em;
@@ -229,7 +229,7 @@ a:hover{
 	color: #aaa;
 }
 button:hover{
-	background: #5c415d;
+	/*background: #2e2e30;*/
 	box-shadow: 0 8px 16px 0 rgba(0,0,0,0.10), 0 15px 50px 0 rgba(0,0,0,0.30);
 }
 @media screen and (max-width: 800px) {
