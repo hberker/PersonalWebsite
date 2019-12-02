@@ -11,6 +11,7 @@
 	<meta charset="ISO-8859-1"> 
 	<script src="./popup.js"></script>
 	<link rel="stylesheet" type="text/css" href="./main.css">
+    <link rel="shortcut icon" type="image/png" href="IMG/hb.png"/>
 	<link href="https://fonts.googleapis.com/css?family=Vollkorn&display=swap" rel="stylesheet"> 
  </head>
 <body data-gr-c-s-loaded="true">

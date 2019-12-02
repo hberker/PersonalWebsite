@@ -18,7 +18,7 @@
 			$content
 		</div>
 		<div class="modal-header $lang" onclick="toggleNav('$id');">
-			<a href ="https://github.com/hberker/$url"><img style="width: 3em" src="IMG/GitHub_Logo_White.png""></a>
+			<a href ="https://github.com/hberker/$url"><img style="width: 3em" src="IMG/GitHub_Logo_White.png"></a>
 		</div>
 	</div>
 </div>
@@ -65,7 +65,7 @@ be shorted including variables. My goal was for in the end, the purpose of the c
 The following is an image from the game in action. To check out the
 actual code check out my GitHub.
 </p>
-<img class="imgcenter"  src="IMG/snakePic.png">
+<img class="imgcenter"  src="IMG/snakePic.jpg">
 html;
 
 		make_project("Obfuscated Snake", "os", "cpp", "Small-Snake", $content);
@@ -89,7 +89,7 @@ roughness, and so on it becomes much much harder.
 <p>
 Here is a sketch of how ray tracing works:
 </p>
-<img class="imgcenter" src="IMG/rayTracingExample.png">
+<img class="imgcenter" src="IMG/rayTracingExample.jpg">
 <p class="modalText">
 Below is an image created by this ray-tracing program in the form of a BMP.
 </p>
@@ -111,20 +111,20 @@ me to write and change pixels arrays and write them out as new images.
 <p>
 In essence, the program works by taking an image like this:
 </p>
-<img class="imgcenter" src="IMG/mouse.png">
+<img class="imgcenter" src="IMG/mouse.jpg">
 <p>
 And rearranging the pixels in order to create four new versions of the image with one fourth the resolution of the original.
 Here is what the image looks like after one round of compression:
 </p>
-<img class="imgcenter"  src="IMG/mousecomp1.png">
+<img class="imgcenter"  src="IMG/mousecomp1.jpg">
 <p>
 Here's what it looks like after two rounds of compression:
 </p>
-<img class="imgcenter"  src="IMG/mousecomp2.png">
+<img class="imgcenter"  src="IMG/mousecomp2.jpg">
 <p>
 Here's what it looks like after five rounds of compression:
 </p>
-<img class="imgcenter"  src="IMG/mousecomp5.png">
+<img class="imgcenter"  src="IMG/mousecomp5.jpg">
 <p>
 The resolution of each smaller version of the image can be found using the equation:
 </p>
@@ -196,7 +196,7 @@ not done a lot with G.U.I.s and thus was different.
 The game, if you didn't know, is about clearing a board without clicking on any mines going off the fact that 
 each board piece that isn't a mine shows a number based on the mines nearby as depicted in the image below:
 </p>
-<img class="imgcenter" src="IMG/minesweeper.png"">
+<img class="imgcenter" src="IMG/minesweeper.jpg"">
 <p>
 If you are interested in the code behind the game feel free to check out my GitHub page.
 </p>
@@ -228,14 +228,14 @@ to Challonge, and Challonge back to the user.
 <p>
 Here is how an admin would tell the bot to end a tournament:
 </p> 
-<img class ="imgcenter" src="IMG/discordbotEndTourn.png">
+<img class ="imgcenter" src="IMG/discordbotEndTourn.jpg">
 <p>
 In this case the tournament running is called "ckforttest".
 </p>
 <p>
 Here is how a user would ask the bot to move one into a chat room with their opponent:
 </p>
-<img class ="imgcenter" src="IMG/discordBotMoveMe.png">
+<img class ="imgcenter" src="IMG/discordBotMoveMe.jpg">
 <p> 
 If you are interested in checking out the Challonge website <a href="https://challonge.com/">here</a> is the link
 </p>
@@ -253,8 +253,7 @@ built this project as a proof of concept for a genetic algorithm. This program w
  <li>Then each individual is assigned a fitness based on how close it is to the target word.</li>
  <img class="imgcenter" src="IMG/fittestInd.png">
  <li>It then creates a new population based off of these two individuals using crossovers of both individuals 
- as well as random mutations of character
- <img style="height:300px" class="imgcenter" src="IMG/gen1gen2.png"></li>
+ as well as random mutations of character</li>
  <li>This process is then repeated until the word is found.</li>
  </ol>
 
@@ -263,7 +262,7 @@ built this project as a proof of concept for a genetic algorithm. This program w
 html;
 make_project("Genetic Algorithm Word Finder", "gwf", "java", "GeneticAlgoWordFinder", $content);
 $content=<<<html
-<img class="imgcenter" src="IMG/cnet.png"></li>
+<img class="imgcenter" src="IMG/cnet.jpg"></li>
 <p>
 I created this project to try and extend my programming knowledge into real-world "problems". The problem,
 in this case, was not wanting to log on to check what homework I had for that day and instead, being able to run a 
@@ -333,7 +332,7 @@ This top down shooter has gone through a multitude of changes as I made the game
 <p>
 Here's a picture of the game in action:
 </p>
-<img class="imgcenter" src="IMG/gamePic.png">
+<img class="imgcenter" src="IMG/gamePic.jpg">
 <p>
 Check it out on github to play!
 </p>
@@ -348,17 +347,17 @@ that will beat other programs in the "terminal" game.
 Each player takes a turn placing offensive and defensive units and then submits their game state 
 of which the computer simulates the resulting turn and gives the A.I. the board state after.
 </p>
-<img class="imgcenter" src="IMG/terminalBoard.png">
+<img class="imgcenter" src="IMG/terminalBoard.jpg">
 <p>The bot plays against opponents constantly and gains/loses points based on the ranking of the bot 
 it played against. So although you might be 5-5 you could sill have a better ranking than someone 5-0 depending on
 the ranking of your opponents
 </p>
-<img class="imgcenter" src="IMG/terminalBot.png">
+<img class="imgcenter" src="IMG/terminalBot.jpg">
 <p>
 My bot in this competition is currently #33 at the time of writing this which is actually 20 places lower
 then the last time I checked.
 </p>
-<img class="imgcenter" src="IMG/terminalLeader.png">
+<img class="imgcenter" src="IMG/terminalLeader.jpg">
 <p>click <a href="https://terminal.c1games.com/home">here</a> to check out Terminal's Site and learn more about how the game works</p>
 html;
 make_project("Terminal Coding Challenge", "tcc", "python", "TerminalAIBot", $content);
@@ -368,7 +367,7 @@ $content=<<<html
 Before I did the Terminal Coding Challenge, I did the Halite Challenge. The concept of Halite is similar to Terminal in the aspect 
 of using AI to play a game against other AIs 
 </p>
-<img class="imgcenter" src="IMG/haliteboard.png">
+<img class="imgcenter" src="IMG/haliteboard.jpg">
 <p>
 The Halite game is played by coding an AI to control ships which must harvest squares with the halite resource. The ships must then bring 
 that Halite back to its base, but if it runs into another ship both ships crash and the Halite they hold is deposited onto that square. 
@@ -376,7 +375,7 @@ that Halite back to its base, but if it runs into another ship both ships crash 
 <p>
 The AI has control over creating ships, new bases, and controlling the actions of each ship.The game records the bot's efficiency and keeps track of its statistics.
 </p>
-<img class="imgcenter" src="IMG/haliteProf.png">
+<img class="imgcenter" src="IMG/haliteProf.jpg">
 <p>
 If you are interested in checking out the Halite coding challenge click <a href="https://2018.halite.io/">here</a>
 </p>
