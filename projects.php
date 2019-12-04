@@ -53,7 +53,7 @@ html;
 		/* Small Snake */
 		$content =<<<html
 <p>
-Small snake was coded in C++ with one mission: to make the most
+Obfuscated snake was coded in C++ with one mission: to make the most
 confusing and unreadable code possible. 
 </p>
 <p>

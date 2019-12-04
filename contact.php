@@ -86,13 +86,10 @@ if(isset($_POST["submit"]))
         <p>
             Feel free to reach out with any questions.
         </p>
-    <div class="container">
         <br/>
-  <div class="flex">
+  <div class="white flex">
         <div class="col-md-6" style="margin:0 auto; float:none; color:black;">
         <form method="post">
-            <h3>Contact Form</h3>
-            <br />
             <h3 class="error"><?php echo $error; ?></h2>
             <div class="form-group">
             <label>Enter Name</label>
@@ -118,6 +115,5 @@ if(isset($_POST["submit"]))
     </div>
     </div>
 
-</div>
 <br>
 <br>
