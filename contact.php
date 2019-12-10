@@ -80,40 +80,21 @@ if(isset($_POST["submit"]))
  }
 }
 ?>
-<div class="text center wordy"">
-    <div class = "postContent">
-        <h2>Contact</h2>
-        <p>
-            Feel free to reach out with any questions.
-        </p>
-        <br/>
-  <div class="white flex">
-        <div class="col-md-6" style="margin:0 auto; float:none; color:black;">
-        <form method="post">
-            <h3 class="error"><?php echo $error; ?></h2>
-            <div class="form-group">
-            <label>Enter Name</label>
-            <input type="text" name="name" placeholder="Enter Name" class="form-control" value="<?php echo $name; ?>" />
-            </div>
-            <div class="form-group">
-            <label>Enter Email</label>
-            <input type="text" name="email" class="form-control" placeholder="Enter Email" value="<?php echo $email; ?>" />
-            </div>
-            <div class="form-group">
-            <label>Enter Subject</label>
-            <input type="text" name="subject" class="form-control" placeholder="Enter Subject" value="<?php echo $subject; ?>" />
-            </div>
-            <div class="form-group">
-            <label>Enter Message</label>
-            <textarea name="message" class="form-control" placeholder="Enter Message"><?php echo $message; ?></textarea>
-            </div>
-            <div class="form-group" align="center">
-            <input type="submit" name="submit" class="btn btn-info" value="Submit" />
-        </div>
-    </form>
-    </div>
-    </div>
-    </div>
-
-<br>
-<br>
+<div class="text center wordy">
+  <h2>Contact</h2>
+  <p>
+      Feel free to reach out with any questions.
+  </p>
+  <form method="post">
+    <h3 class="error"></h3>
+    <label>Enter Name</label>
+    <input type="text" name="name" placeholder="Enter Name">
+    <label>Enter Email</label>
+    <input type="text" name="email" placeholder="Enter Email">
+    <label>Enter Subject</label>
+    <input type="text" name="subject" placeholder="Enter Subject">
+    <label>Enter Message</label>
+    <textarea name="message" placeholder="Enter Message"></textarea>
+    <input type="submit" name="submit" value="Submit">
+  </form>
+</div>
